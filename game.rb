@@ -3,7 +3,7 @@ require "securerandom"
 
 class Game
   attr_reader :players, :game_id
-  @@total_score = 50
+  @@total_score = 100
 
   def initialize(is_live = true, player1, player2)
     @is_live = is_live
